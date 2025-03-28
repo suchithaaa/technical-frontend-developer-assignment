@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Selection</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Option 1 -->
+        <div class="box" id="box1">
+            <input type="radio" name="pair" id="pair1">
+            <label for="pair1" class="radio-label">
+                <span class="radio-circle"></span>
+            </label>
+            <div class="box-content">
+                <strong>1 Pair</strong> <br> DKK <strong>195.00</strong>
+                <span class="discount">50% OFF</span>
+                <div class="options hidden">
+                    <label>#1:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Option 2 -->
+        <div class="box" id="box2">
+            <input type="radio" name="pair" id="pair2">
+            <label for="pair2" class="radio-label">
+                <span class="radio-circle"></span>
+            </label>
+            <div class="box-content">
+                <strong>2 Pair</strong> <br> DKK <strong>345.00</strong>
+                <span class="discount">40% OFF</span>
+                <div class="options hidden">
+                    <label>#2:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Option 3 -->
+        <div class="box" id="box3">
+            <input type="radio" name="pair" id="pair3">
+            <label for="pair3" class="radio-label">
+                <span class="radio-circle"></span>
+            </label>
+            <div class="box-content">
+                <strong>3 Pair</strong> <br> DKK <strong>528.00</strong>
+                <span class="discount">60% OFF</span>
+                <div class="options hidden">
+                    <label>#3:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <p class="shipping">Free 2 Day Shipping</p>
+        <p class="total">Total: <strong>DKK 360.00</strong></p>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+    <script src="example.js"></script>
+</body>
+</html>
