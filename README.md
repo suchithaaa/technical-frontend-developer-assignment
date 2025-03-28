@@ -1,1 +1,0 @@
-# technical-frontend-developer-assignment
